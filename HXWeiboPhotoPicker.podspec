@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.resources    = "微博照片选择/HXWeiboPhotoPicker/*.{png,xib,nib,bundle}"
   s.framework    = "UIKit"
   s.requires_arc = true
-  s.dependency "SDWebImage", "~> 4.0"
+  s.dependency "SDWebImage"
 
 end
